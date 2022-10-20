@@ -96,13 +96,13 @@ margin-left: 50px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .portfolio {
@@ -144,6 +144,8 @@ margin-left: 50px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email {
@@ -161,8 +163,6 @@ margin-left: 50px;
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--accent-color);
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*--------------- КНОПКИ -----------------*/
@@ -201,6 +201,10 @@ button {
     background-color: #F5F4FA;
 
     border-radius: 4px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .service-button:hover,
@@ -211,10 +215,6 @@ button {
     rgba(0, 0, 0, 0.1), 0px 1px 2px
     rgba(0, 0, 0, 0.08), 0px 2px 2px
     rgba(0, 0, 0, 0.12);
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*------------- РОБОТИ -------------*/
@@ -234,6 +234,8 @@ button {
 .work-list .link {
     display: block;
     text-decoration: none;
+
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .work-list .link:hover {
@@ -241,8 +243,6 @@ button {
     rgba(0, 0, 0, 0.12), 0px 4px 4px
     rgba(0, 0, 0, 0.06), 1px 4px 6px
     rgba(0, 0, 0, 0.16);
-
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project {
@@ -359,13 +359,13 @@ button {
 .contacts {
     color: var(--footer-contacts-color);
     text-decoration: none;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts:hover,
 .contacts:focus {
     color: var(--accent-color);
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-connection {
@@ -397,12 +397,12 @@ button {
 .footer-social-link>.social-link {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
+
+    
 }
 
 .footer-social-link>.social-link:hover {
-    background-color: var(--accent-color);
-
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: var(--accent-color); 
 }
 
 .social-link {
@@ -415,15 +415,15 @@ button {
     border-radius: 50px;
     background-color: var(--primary-white-color);
     color: #AFB1B8;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
 .social-link:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons {

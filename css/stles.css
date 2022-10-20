@@ -93,13 +93,13 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .studio {
@@ -139,6 +139,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email {
@@ -156,8 +158,6 @@ body {
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -------------- ГЕРОЙ------------ */
@@ -480,15 +480,15 @@ body {
   border-radius: 50px;
   background-color: var(--primary-white-color);
   color: #AFB1B8;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-              background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons {
@@ -533,15 +533,15 @@ body {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   fill: #AFB1B8;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
 .clients-link:focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
-
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-              border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icons {
@@ -595,13 +595,13 @@ body {
 .contacts {
   color: var(--footer-contacts-color);
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts:hover,
 .contacts:focus {
   color: var(--accent-color);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-connection {
@@ -633,6 +633,8 @@ body {
 .footer-social-link > .social-link {
 background: rgba(255, 255, 255, 0.1);
 border-radius: 50px;
+
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link .social-icons {
@@ -642,6 +644,4 @@ border-radius: 50px;
 .footer-social-link > .social-link:hover,
 .footer-social-link>.social-link:focus {
   background-color: var(--accent-color);
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
